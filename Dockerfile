@@ -18,3 +18,5 @@ FROM alpine:3.9 AS exec-stage
 RUN apk add libcaca-dev
 COPY --from=build-stage /usr/local/bin/* /usr/local/bin/
 COPY --from=build-stage /usr/local/src/toilet/fonts/* /usr/local/share/figlet/
+
+ENTRYPOINT ["toilet"]
