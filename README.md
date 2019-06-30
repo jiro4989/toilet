@@ -2,7 +2,7 @@
 
 This repository builds a docker image of [toilet](https://github.com/cacalabs/toilet).
 
-[DockerHub - jiro4989/toilet](https://cloud.docker.com/repository/docker/jiro4989/toilet)
+[DockerHub - jiro4989/toilet](https://hub.docker.com/r/jiro4989/toilet)
 
 ## Usage
 
