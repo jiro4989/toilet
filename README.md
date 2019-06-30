@@ -10,3 +10,14 @@ This repository builds a docker image of [toilet](https://github.com/cacalabs/to
 docker pull jiro4989/toilet
 docker run -it jiro4989/toilet hello
 ```
+
+```
+                                   
+ #             ""#    ""#          
+ # mm    mmm     #      #     mmm  
+ #"  #  #"  #    #      #    #" "# 
+ #   #  #""""    #      #    #   # 
+ #   #  "#mm"    "mm    "mm  "#m#" 
+                                   
+                                   
+```
