@@ -5,7 +5,7 @@ ENV SRC_DIR $DIR_PREFIX/src
 ENV BIN_DIR $DIR_PREFIX/bin
 
 RUN apk --no-cache add git bash make automake autoconf pkgconfig gcc musl-dev libcaca-dev \
-    && git clone https://github.com/cacalabs/toilet $SRC_DIR/toilet \
+    && git clone --depth 1 https://github.com/cacalabs/toilet $SRC_DIR/toilet \
     && cd $SRC_DIR/toilet \
     && ./bootstrap \
     && ./configure \
